@@ -78,7 +78,7 @@ footer{text-align:center;padding:26px 0 26px;font-size:12px;letter-spacing:.06em
 <body>
 <div id="app">
   <header class="top">
-    <a class="home" id="home" href="https://shelleytaiwan.github.io/review-for-NP/">← 返回主頁</a>
+    <a class="home" id="home" href="https://shelleytaiwan.github.io/learning-toolkits/">← 返回主頁</a>
     <h1 id="ttl">拼音聽力</h1>
   </header>
   <main>
@@ -499,7 +499,7 @@ $('q-quit').onclick=()=>{if(window.speechSynthesis)speechSynthesis.cancel();cur.
 $('chal-back').onclick=()=>show('v-menu');
 $('r-again').onclick=()=>start(cur.key);
 $('r-menu').onclick=()=>{cur.key=null;show('v-menu')};
-$('home').onclick=e=>{e.preventDefault();if(window.speechSynthesis)speechSynthesis.cancel();location.href='https://shelleytaiwan.github.io/review-for-NP/'};
+$('home').onclick=e=>{e.preventDefault();if(window.speechSynthesis)speechSynthesis.cancel();location.href='https://shelleytaiwan.github.io/learning-toolkits/'};
 
 renderStatic();show('v-menu');
 </script>
